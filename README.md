@@ -5,7 +5,7 @@ Complete-Android-N-Udemy-course-for-Android-Studio-4
 
 The projects are tested for Nexus 5 device. You can change the resolution for your own device directly from Android Studio.
 
-A project can pe launched by opening the build.gradle file located inside of the project folder.
+A project can be launched by opening the build.gradle file located inside of the project folder.
 | Lecture number | Project name |
 | ------- | ----------- |
 |22|Currency Converter|
