@@ -1,0 +1,44 @@
+//Notiuni generale git:
+HEAD=the currently selected branch
+
+
+
+init //initialize Local Git Repository
+git add <file name>  //Add File(s) to Index
+git add *.<file extension> //add all files with a specific extension
+git add . //add all the files no matter what extension
+git status //Check Status Of Working Tree
+git rm --cached <file name> //remove a specific file to not be staged (pus in stagiu adica pregatit)
+git commit //Commit changes in Index. you can write in the default editor an informative message inside commit file.
+//Before commit you need to execute these:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git rm --cached //in caz ca nu dorim sa includem fisiere in git, dar dorim sa le lasam in folder
+git commit -m 'a specific message' //commit without to open the default editor
+git push //Push to Remote Repository
+git pull //Pull Latest From Remote Repository
+git clone //Clone Repository Into a new Directory
+git config --global user.name 'numele tau' //define your name
+git config --global user.email 'your email' //define your email
+.gitignore //specify a <filename> or a </dir> inside of this .gitignore file will ignore that specified file when you add it for stage with 'git add .'
+git branch <name branch> //create a branch of the master git
+git checkout <branch name> //switching to a specigic branch name
+git checkout master //switching to the master branch
+git merge <branch name> //merge master branch with a specific branch name
+git remote //will tell you if your origin(local repository) is used for remote
+git remote add origin <https://github.com/your-git-account/your-repository.git> //you add your origin (local repository) for remote
+git push -f origin master //This will overwrite changes on the remote in cazul in care este deja creat un branch remote si pe care vrem sa-l rescriem
+git push -u origin master //publish your origin master to remote
+git push //you only need this command if previous you did: 'git add .', 'git commit -m <'your message'>' and with push you put it remotely
+git clone <https://github.com/your-git-account/your-repository.git> //will clone a repository to your local drive
+git pull //download all the updates to your local master
+git log //afiseaza o list cu commit-urile recente
+git revert <nume-branch> //se va activa acel commit insa nu se adauga modificarile
+                        //facute special in acel commit
+git log --oneline //asemanator cu gut log doar ca afiseaza mesajul pt fiecare commit pe o singura linie
+git reset --hard <nume-commit> //asemanator cu checkout doar ca       
+                               //toate commiturile mai noi sunt eliminate
+.gitignore //fisierul cu extensia .gitignora contine fisiere si
+           //foldere care vrem sa fie ignorate din git. De example
+        // daca includem in .gitignore folder/* se va ignora tot
+        //continutul din folder
