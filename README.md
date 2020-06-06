@@ -9,4 +9,5 @@ A project can be launched by opening the build.gradle file located inside of the
 | Lecture number | Project name |
 | ------- | ----------- |
 |22|Currency Converter|
+|33|Higher Or Lower|
 |  |  |
