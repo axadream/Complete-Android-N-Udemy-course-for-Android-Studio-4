@@ -8,6 +8,6 @@ The projects are tested for Nexus 5 device. You can change the resolution for yo
 A project can be launched by opening the build.gradle file located inside of the project folder.
 | Lecture number | Project name |
 | ------- | ----------- |
-|22|Currency Converter|
-|33|Higher Or Lower|
+|22|[**Currency Converter**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/Lecture22)|
+|33|[**Higher Or Lower**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/Lecture33)|
 |  |  |
