@@ -20,4 +20,5 @@ A project can be launched by opening the build.gradle file located inside of the
 |55|[**Sound Demo - part2**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture55)|
 |59|[**Basic Phrases**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture59)|
 |62|[**List View Demo**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture62)|
+|64|[**Times Tables**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture64)|
 |  |  |
