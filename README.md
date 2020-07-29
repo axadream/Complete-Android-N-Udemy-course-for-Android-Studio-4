@@ -24,4 +24,5 @@ A project can be launched by opening the build.gradle file located inside of the
 |66|[**Timer Demo**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture66)|
 |68|[**Egg Timer**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture68)|
 |70|[**Showing and Hiding UI Elements**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture70)|
+|72|[**Brain Trainer**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture72)|
 |  |  |
