@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentActivity;
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -27,6 +28,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
@@ -50,13 +52,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     public void centerMapOnLocation(Location location, String title) {
-        LatLng userlocation = new LatLng(location.getLatitude(), location.getLongitude());
+        LatLng userLocation = new LatLng(location.getLatitude(), location.getLongitude());
         mMap.clear();
         if (title != "Your location") {
-            mMap.addMarker(new MarkerOptions().position(userlocation).title(title));
+            mMap.addMarker(new MarkerOptions().position(userLocation).title(title));
         }
 
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userlocation, 10));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation, 10));
     }
 
     @Override
@@ -115,7 +117,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
                     locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
                     Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                    centerMapOnLocation(lastKnownLocation, "Your location");
+
+                        centerMapOnLocation(lastKnownLocation, "Your location");
+
                 } else {
                     ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
                 }
@@ -161,6 +165,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         MainActivity.locations.add(latLng);
         MainActivity.arrayAdapter.notifyDataSetChanged();
 
+        SharedPreferences sharedPreferences=this.getSharedPreferences("mathexa.com",Context.MODE_PRIVATE);
+        try {
+            ArrayList<String>latitudes=new ArrayList<>();
+            ArrayList<String>longitudes=new ArrayList<>();
+            for (LatLng coordinates:MainActivity.locations) {
+                latitudes.add(Double.toString(coordinates.latitude));
+                longitudes.add(Double.toString(coordinates.longitude));
+            }
+
+            sharedPreferences.edit().putString("places",ObjectSerializer.serialize(MainActivity.places)).apply();
+            sharedPreferences.edit().putString("latitudes",ObjectSerializer.serialize(latitudes)).apply();
+            sharedPreferences.edit().putString("longitudes",ObjectSerializer.serialize(longitudes)).apply();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         Toast.makeText(this,"Location Saved",Toast.LENGTH_SHORT).show();
 
     }

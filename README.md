@@ -36,4 +36,11 @@ A project can be launched by opening the build.gradle file located inside of the
 |101|[**Hiker's Watch**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture101)|
 |103|[**Multiple Activities Demo**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture103)|
 |105|[**Memorable Places**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture105)|
+|108|[**Shared Preferences**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture108)|
+|110|[**Menu Demo**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture110)|
+|112|[**Alert Demo / Language Preferences **](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture112)|
+|114|[**Notes**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture114)|
+|116|[**Database Demo**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture116)|
+|120|[**Webviews**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture120)|
+|122|[**News Reader**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture122)|
 |  |  |
