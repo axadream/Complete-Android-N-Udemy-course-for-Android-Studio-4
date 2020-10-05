@@ -1,7 +1,7 @@
 Complete-Android-N-Udemy-course-for-Android-Studio-4
 ============
 
-##The projects source code for Android Studio 4.x version for the Udemy course https://www.udemy.com/course/complete-android-n-developer-course/
+The projects source code for Android Studio 4.x version for the Udemy course https://www.udemy.com/course/complete-android-n-developer-course/
 
 The projects are tested for Nexus 5 device. You can change the resolution for your own device directly from Android Studio.
 
@@ -43,4 +43,13 @@ A project can be launched by opening the build.gradle file located inside of the
 |116|[**Database Demo**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture116)|
 |120|[**Webviews**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture120)|
 |122|[**News Reader**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture122)|
+|125|[**Parse-Server-Starter-Project**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture125)|
+|127|[**Advanced-Parse-Techniques**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture127)|
+|129|[**Advanced-Queries**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture129)|
+|131|[**Parse-Users**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture131)|
+|133|[**Login-SignUp**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture133)|
+|135|[**Advanced-Keyboard-Management**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture135)|
+|137|[**Showing-The-User-List**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture137)|
+|139|[**Photo-Import-Demo**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture139)|
+|141|[**Instagram-Clone**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture141)|
 |  |  |
