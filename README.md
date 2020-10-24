@@ -57,4 +57,11 @@ A project can be launched by opening the build.gradle file located inside of the
 |148|[**Rider-Activity**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture148)|
 |150|[**Driver-Activities**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture150)|
 |152|[**Uber-Clone**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture152)|
+|155|[**Introducing-GDX**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture155)|
+|157|[**Working-With-Sprites**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture157)|
+|159|[**Interacting-With-Sprites**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture159)|
+|161|[**Bringing-In-The-Pipes**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture161)|
+|163|[**Collision-Detection**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture163)|
+|165|[**Scoring**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture165)|
+|167|[**FlappyBird-Clone**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture167)|
 |  |  |
