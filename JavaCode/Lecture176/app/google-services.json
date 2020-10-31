@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "875270290459",
+    "firebase_url": "https://fir-demo-project-eb481.firebaseio.com",
+    "project_id": "fir-demo-project-eb481",
+    "storage_bucket": "fir-demo-project-eb481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875270290459:android:638f6b3294ad0e29c4ccbe",
+        "android_client_info": {
+          "package_name": "mathexa.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875270290459-8535jji6slhv5va598kput49p75e6eb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr2rHsSD_XIoc70U292avyROaM65Qy-uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875270290459-8535jji6slhv5va598kput49p75e6eb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

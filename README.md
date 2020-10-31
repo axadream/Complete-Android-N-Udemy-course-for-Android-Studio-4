@@ -3,7 +3,7 @@ Complete-Android-N-Udemy-course-for-Android-Studio-4
 
 The projects source code for Android Studio 4.x version for the Udemy course https://www.udemy.com/course/complete-android-n-developer-course/
 
-The projects are tested for Nexus 5 device. You can change the resolution for your own device directly from Android Studio.
+The projects are tested for mobile phones with a screen of 6.39'' (1080x2340 pixels). You can change the resolution for your own device directly from Android Studio.
 
 A project can be launched by opening the build.gradle file located inside of the project folder.
 | Lecture number | Project name |
@@ -64,4 +64,9 @@ A project can be launched by opening the build.gradle file located inside of the
 |163|[**Collision-Detection**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture163)|
 |165|[**Scoring**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture165)|
 |167|[**FlappyBird-Clone**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture167)|
+|170|[**Working-With-Bluetooth**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture170)|
+|174|[**Firebase-Demo-App**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture174)|
+|176|[**Admob**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture176)|
+|178|[**Notifications Demo**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture178)|
+|180|[**Split Screen Demo**](https://github.com/mathexa/Complete-Android-N-Udemy-course-for-Android-Studio-4/tree/master/JavaCode/Lecture180)|
 |  |  |
